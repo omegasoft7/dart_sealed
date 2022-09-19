@@ -21,14 +21,14 @@ jobs:
         run: .tools/format
       - name: analyze
         run: .tools/analyze
-      - name: test sealed_annotations
-        working-directory: sealed_annotations
+      - name: test sealed_class_annotations
+        working-directory: sealed_class_annotations
         run: dart test
-      - name: test sealed_writer
-        working-directory: sealed_writer
+      - name: test sealed_class_writer
+        working-directory: sealed_class_writer
         run: dart test
-      - name: test sealed_generators
-        working-directory: sealed_generators
+      - name: test sealed_class_creators
+        working-directory: sealed_class_creators
         run: dart test
       - name: build example
         working-directory: example

@@ -3,7 +3,7 @@
 part of 'result_single_1.dart';
 
 // **************************************************************************
-// Generator: sealed_generators
+// Generator: sealed_class_creators
 // **************************************************************************
 
 /// [Result]<[D] extends [num]> {

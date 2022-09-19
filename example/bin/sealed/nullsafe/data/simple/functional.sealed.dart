@@ -3,7 +3,7 @@
 part of 'functional.dart';
 
 // **************************************************************************
-// Generator: sealed_generators
+// Generator: sealed_class_creators
 // **************************************************************************
 
 /// [Functional1] {

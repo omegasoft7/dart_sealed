@@ -1,10 +1,10 @@
 # Dart Sealed Class Generator
 
-[![build](https://img.shields.io/github/workflow/status/6thsolution/dart_sealed/Dart?label=build)](https://github.com/6thsolution/dart_sealed/actions/workflows/dart.yml)
+[![build](https://img.shields.io/github/workflow/status/6thsolution/dart_sealed/Dart?label=build)](https://github.com/omegasoft7/dart_sealed/actions/workflows/dart.yml)
 [![build](https://img.shields.io/codecov/c/gh/6thsolution/dart_sealed?label=coverage)](https://codecov.io/gh/6thsolution/dart_sealed)
-[![pub](https://img.shields.io/pub/v/sealed_annotations.svg?color=blue&label=sealed_annotations)](https://pub.dev/packages/sealed_annotations)
-[![pub](https://img.shields.io/pub/v/sealed_generators.svg?color=blue&label=sealed_generators)](https://pub.dev/packages/sealed_generators)
-[![pub](https://img.shields.io/pub/v/sealed_writer.svg?color=blue&label=sealed_writer)](https://pub.dev/packages/sealed_writer)
+[![pub](https://img.shields.io/pub/v/sealed_class_annotations.svg?color=blue&label=sealed_class_annotations)](https://pub.dev/packages/sealed_class_annotations)
+[![pub](https://img.shields.io/pub/v/sealed_class_creators.svg?color=blue&label=sealed_class_creators)](https://pub.dev/packages/sealed_class_creators)
+[![pub](https://img.shields.io/pub/v/sealed_class_writer.svg?color=blue&label=sealed_class_writer)](https://pub.dev/packages/sealed_class_writer)
 
 Generate sealed class hierarchy for Dart and Flutter.
 
@@ -28,16 +28,16 @@ Add dependencies in your `pubspec.yaml` file.
 
 ```yaml
 dependencies:
-  sealed_annotations: ^latest.version
+  sealed_class_annotations: ^latest.version
 
 dev_dependencies:
-  sealed_generators: ^latest.version
+  sealed_class_creators: ^latest.version
 ```
 
-Import `sealed_annotations`.
+Import `sealed_class_annotations`.
 
 ```dart
-import 'package:sealed_annotations/sealed_annotations.dart';
+import 'package:sealed_class_annotations/sealed_class_annotations.dart';
 ```
 
 Add `part` pointing to a file which you want classes be generated in. with `.sealed.dart` extension.
@@ -257,7 +257,7 @@ use `T` without nullability suffix. If you don't specify upper bound it will def
 will be nullable.
 
 ```dart
-import 'package:sealed_annotations/sealed_annotations.dart';
+import 'package:sealed_class_annotations/sealed_class_annotations.dart';
 
 part 'result.sealed.dart';
 
@@ -272,7 +272,7 @@ abstract class _Result<D extends num> {
 Or you can have multiple generic types and even mix them.
 
 ```dart
-import 'package:sealed_annotations/sealed_annotations.dart';
+import 'package:sealed_class_annotations/sealed_class_annotations.dart';
 
 part 'result.sealed.dart';
 

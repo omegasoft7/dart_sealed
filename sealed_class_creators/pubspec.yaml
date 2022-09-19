@@ -1,0 +1,34 @@
+name: sealed_class_creators
+description: Dart and Flutter sealed or union class generator and annotations, with match methods and other utilities.
+repository: https://github.com/omegasoft7/dart_sealed/tree/master/sealed_class_creators
+homepage: https://github.com/omegasoft7/dart_sealed
+
+version: 1.13.2
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  # use fixed version dependency
+  sealed_class_annotations: '^1.13.2'
+  # use fixed version dependency
+  sealed_class_writer: '^1.13.2'
+  build: ^2.3.1
+  source_gen: ^1.2.3
+  analyzer: ^5.0.0
+  pub_semver: ^2.1.1
+
+dev_dependencies:
+  lints: any
+  test: any
+  build_test: any
+
+# # remove this on pub branch
+# publish_to: 'none'
+
+# # remove this on pub branch
+# dependency_overrides:
+#   sealed_class_annotations:
+#     path: ../sealed_class_annotations
+#   sealed_class_writer:
+#     path: ../sealed_class_writer

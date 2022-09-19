@@ -2,9 +2,9 @@
 
 echo COPY LICENSE FILE
 
-cp LICENSE sealed_annotations/
+cp LICENSE sealed_class_annotations/
 cp LICENSE example/
-cp LICENSE sealed_generators/
-cp LICENSE sealed_writer/
+cp LICENSE sealed_class_creators/
+cp LICENSE sealed_class_writer/
 
 echo DONE

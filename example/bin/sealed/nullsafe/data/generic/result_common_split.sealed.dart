@@ -3,7 +3,7 @@
 part of 'result_common_split.dart';
 
 // **************************************************************************
-// Generator: sealed_generators
+// Generator: sealed_class_creators
 // **************************************************************************
 
 /// [ResultLeftRight]<[D] extends [num]> {

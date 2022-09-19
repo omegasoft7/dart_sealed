@@ -31,7 +31,7 @@
 ## 1.7.0
 
 - Removed @immutable, @factory and @sealed generation
-- Removed meta export from sealed_annotations
+- Removed meta export from sealed_class_annotations
 - Added support for functional types as field types (#3)
 
 ## 1.6.0

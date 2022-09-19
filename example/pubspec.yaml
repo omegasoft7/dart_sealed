@@ -1,9 +1,9 @@
 name: example
 description: Dart and Flutter sealed or union class generator and annotations, with match methods and other utilities.
-repository: https://github.com/6thsolution/dart_sealed/tree/master/example
-homepage: https://github.com/6thsolution/dart_sealed
+repository: https://github.com/omegasoft7/dart_sealed/tree/master/example
+homepage: https://github.com/omegasoft7/dart_sealed
 
-version: 1.13.0
+version: 1.13.2
 
 # example package should not be published
 publish_to: 'none'
@@ -13,20 +13,20 @@ environment:
 
 dependencies:
   # use fixed version dependency
-  sealed_annotations: '1.13.0'
+  sealed_class_annotations: '1.13.2'
 
 dev_dependencies:
   # use fixed version dependency
-  sealed_generators: '1.13.0'
+  sealed_class_creators: '1.13.2'
   lints: any
   test: any
   build_runner: any
 
-# remove this on pub branch
-dependency_overrides:
-  sealed_annotations:
-    path: ../sealed_annotations
-  sealed_writer:
-    path: ../sealed_writer
-  sealed_generators:
-    path: ../sealed_generators
+# # remove this on pub branch
+# dependency_overrides:
+#   sealed_class_annotations:
+#     path: ../sealed_class_annotations
+#   sealed_class_writer:
+#     path: ../sealed_class_writer
+#   sealed_class_creators:
+#     path: ../sealed_class_creators

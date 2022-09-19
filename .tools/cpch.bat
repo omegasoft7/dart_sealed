@@ -2,9 +2,9 @@
 
 echo COPY CHANGELOG FILE
 
-copy CHANGELOG.md sealed_annotations\
+copy CHANGELOG.md sealed_class_annotations\
 copy CHANGELOG.md example\
-copy CHANGELOG.md sealed_generators\
-copy CHANGELOG.md sealed_writer\
+copy CHANGELOG.md sealed_class_creators\
+copy CHANGELOG.md sealed_class_writer\
 
 echo DONE

@@ -1,4 +1,4 @@
-import 'package:sealed_annotations/sealed_annotations.dart';
+import 'package:sealed_class_annotations/sealed_class_annotations.dart';
 
 part 'functional.sealed.dart';
 

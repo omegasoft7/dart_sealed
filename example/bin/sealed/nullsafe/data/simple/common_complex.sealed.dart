@@ -3,7 +3,7 @@
 part of 'common_complex.dart';
 
 // **************************************************************************
-// Generator: sealed_generators
+// Generator: sealed_class_creators
 // **************************************************************************
 
 /// [Common] {
